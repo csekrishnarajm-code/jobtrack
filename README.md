@@ -28,10 +28,9 @@ A backend project made of two cooperating services that share one PostgreSQL dat
 
 ## Live demo
 
-After you deploy (see [docs/DEPLOY.md](docs/DEPLOY.md)), put your links here:
 
-- Django API + Swagger: `https://YOUR-API.onrender.com/api/docs/`
-- FastAPI analytics + Swagger: `https://YOUR-ANALYTICS.onrender.com/docs`
+   - Django API + Swagger: https://jobtracker-zlng.onrender.com/api/docs/
+   - FastAPI analytics + Swagger: https://jobtrack-analytics.onrender.com/docs
 
 (Free hosting sleeps when idle, so the first request can take about a minute.)
 
