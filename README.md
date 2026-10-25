@@ -28,11 +28,14 @@ A backend project made of two cooperating services that share one PostgreSQL dat
 
 ## Live demo
 
+Deployed on Render (free tier) with a Neon PostgreSQL database:
 
-   - Django API + Swagger: https://jobtracker-zlng.onrender.com/api/docs/
-   - FastAPI analytics + Swagger: https://jobtrack-analytics.onrender.com/docs
+- Django API + Swagger: https://jobtracker-zlng.onrender.com/api/docs/
+- FastAPI analytics + Swagger: https://jobtrack-analytics.onrender.com/docs
 
-(Free hosting sleeps when idle, so the first request can take about a minute.)
+Free hosting sleeps when idle, so the first request can take up to a minute.
+To try it: register and log in on the Django docs page, click **Authorize** and paste the access token,
+then use the same token on the analytics docs page. Deployment steps are in [docs/DEPLOY.md](docs/DEPLOY.md).
 
 ## Run with Docker (recommended)
 
